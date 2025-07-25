@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414C1F742E31E1C100601F4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F732E31E1C100601F4C /* AVFoundation.framework */; };
+		414C1F7A2E31E22A00601F4C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F792E31E22A00601F4C /* libiconv.tbd */; };
+		414C1F802E31E27F00601F4C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F7F2E31E27F00601F4C /* CoreMedia.framework */; };
+		414C1F822E31E28E00601F4C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F812E31E28E00601F4C /* VideoToolbox.framework */; };
+		414C1F842E31E2CA00601F4C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F832E31E2CA00601F4C /* libbz2.tbd */; };
+		414C1F852E31E2DE00601F4C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414C1F752E31E1D000601F4C /* libz.tbd */; };
+		FD636EB4FB42CD4E891DB7EF /* libPods-OneLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1059832850B91E571A2BE3BF /* libPods-OneLive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09BEED9C3097C0EBACFED2FD /* Pods-OneLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLive.debug.xcconfig"; path = "Target Support Files/Pods-OneLive/Pods-OneLive.debug.xcconfig"; sourceTree = "<group>"; };
+		1059832850B91E571A2BE3BF /* libPods-OneLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211DC372796D8BCBEA921882 /* Pods-OneLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLive.release.xcconfig"; path = "Target Support Files/Pods-OneLive/Pods-OneLive.release.xcconfig"; sourceTree = "<group>"; };
+		414C1EDE2E31D48800601F4C /* OneLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		414C1F732E31E1C100601F4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		414C1F752E31E1D000601F4C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		414C1F772E31E1E700601F4C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		414C1F792E31E22A00601F4C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		414C1F7B2E31E24700601F4C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		414C1F7D2E31E25300601F4C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		414C1F7F2E31E27F00601F4C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		414C1F812E31E28E00601F4C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		414C1F832E31E2CA00601F4C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		414C1EF52E31D48C00601F4C /* Exceptions for "OneLive" folder in "OneLive" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 414C1EDD2E31D48800601F4C /* OneLive */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		414C1EE02E31D48800601F4C /* OneLive */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				414C1EF52E31D48C00601F4C /* Exceptions for "OneLive" folder in "OneLive" target */,
+			);
+			path = OneLive;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414C1EDB2E31D48800601F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414C1F852E31E2DE00601F4C /* libz.tbd in Frameworks */,
+				414C1F842E31E2CA00601F4C /* libbz2.tbd in Frameworks */,
+				414C1F822E31E28E00601F4C /* VideoToolbox.framework in Frameworks */,
+				414C1F802E31E27F00601F4C /* CoreMedia.framework in Frameworks */,
+				414C1F7A2E31E22A00601F4C /* libiconv.tbd in Frameworks */,
+				414C1F742E31E1C100601F4C /* AVFoundation.framework in Frameworks */,
+				FD636EB4FB42CD4E891DB7EF /* libPods-OneLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0B0AF1D40DDDDEE08E824D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414C1F832E31E2CA00601F4C /* libbz2.tbd */,
+				414C1F812E31E28E00601F4C /* VideoToolbox.framework */,
+				414C1F7F2E31E27F00601F4C /* CoreMedia.framework */,
+				414C1F7D2E31E25300601F4C /* MetalKit.framework */,
+				414C1F7B2E31E24700601F4C /* Metal.framework */,
+				414C1F792E31E22A00601F4C /* libiconv.tbd */,
+				414C1F772E31E1E700601F4C /* AVKit.framework */,
+				414C1F752E31E1D000601F4C /* libz.tbd */,
+				414C1F732E31E1C100601F4C /* AVFoundation.framework */,
+				1059832850B91E571A2BE3BF /* libPods-OneLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		414C1ED52E31D48800601F4C = {
+			isa = PBXGroup;
+			children = (
+				414C1EE02E31D48800601F4C /* OneLive */,
+				414C1EDF2E31D48800601F4C /* Products */,
+				FF637D7B213B8F41BF7EB27C /* Pods */,
+				0E0B0AF1D40DDDDEE08E824D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		414C1EDF2E31D48800601F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414C1EDE2E31D48800601F4C /* OneLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF637D7B213B8F41BF7EB27C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09BEED9C3097C0EBACFED2FD /* Pods-OneLive.debug.xcconfig */,
+				211DC372796D8BCBEA921882 /* Pods-OneLive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414C1EDD2E31D48800601F4C /* OneLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414C1EF62E31D48C00601F4C /* Build configuration list for PBXNativeTarget "OneLive" */;
+			buildPhases = (
+				8107E157591CED535E5645AD /* [CP] Check Pods Manifest.lock */,
+				414C1EDA2E31D48800601F4C /* Sources */,
+				414C1EDB2E31D48800601F4C /* Frameworks */,
+				414C1EDC2E31D48800601F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				414C1EE02E31D48800601F4C /* OneLive */,
+			);
+			name = OneLive;
+			productName = OneLive;
+			productReference = 414C1EDE2E31D48800601F4C /* OneLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414C1ED62E31D48800601F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					414C1EDD2E31D48800601F4C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 414C1ED92E31D48800601F4C /* Build configuration list for PBXProject "OneLive" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414C1ED52E31D48800601F4C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 414C1EDF2E31D48800601F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414C1EDD2E31D48800601F4C /* OneLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414C1EDC2E31D48800601F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8107E157591CED535E5645AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414C1EDA2E31D48800601F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		414C1EF72E31D48C00601F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BEED9C3097C0EBACFED2FD /* Pods-OneLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLive/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机以拍摄照片和视频";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风以录制音频";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.OneLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		414C1EF82E31D48C00601F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211DC372796D8BCBEA921882 /* Pods-OneLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneLive/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机以拍摄照片和视频";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风以录制音频";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shepherd.programm.OneLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		414C1EF92E31D48C00601F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		414C1EFA2E31D48C00601F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F58B2JKMDB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414C1ED92E31D48800601F4C /* Build configuration list for PBXProject "OneLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414C1EF92E31D48C00601F4C /* Debug */,
+				414C1EFA2E31D48C00601F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414C1EF62E31D48C00601F4C /* Build configuration list for PBXNativeTarget "OneLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414C1EF72E31D48C00601F4C /* Debug */,
+				414C1EF82E31D48C00601F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414C1ED62E31D48800601F4C /* Project object */;
+}
